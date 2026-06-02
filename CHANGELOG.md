@@ -4,6 +4,11 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.2.0] - 2026-06-02
+- Added CM-6 Configuration Settings check for insecure default configurations
+- Added AU-9 Protection of Audit Information check for CloudWatch log group retention
+- Improved report output to include control descriptions alongside pass/fail status
+
 ## [1.1.0] - 2026-05-30
 - Added SC-7 Boundary Protection check for open security group rules
 - Improved AC-2 account management check to flag stale IAM users

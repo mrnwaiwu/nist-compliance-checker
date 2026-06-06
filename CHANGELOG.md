@@ -4,6 +4,11 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.3.0] - 2026-06-05
+- Added IR-4 Incident Handling check for CloudTrail log integrity validation
+- Added SI-4 Information System Monitoring check for GuardDuty detector status
+- Improved control output to include NIST 800-53 revision 5 references
+
 ## [1.2.0] - 2026-06-02
 - Added CM-6 Configuration Settings check for insecure default configurations
 - Added AU-9 Protection of Audit Information check for CloudWatch log group retention

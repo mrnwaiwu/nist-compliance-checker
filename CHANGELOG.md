@@ -4,6 +4,12 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.4.0] - 2026-06-08
+- Added RA-5 Vulnerability Scanning check for Inspector scan age and unresolved critical findings
+- Added CP-9 Information System Backup check for RDS automated backup retention policy
+- Improved control output formatting with remediation guidance links per finding
+- Refactored report writer to support pluggable output formats (JSON, text, future HTML)
+
 ## [1.3.0] - 2026-06-05
 - Added IR-4 Incident Handling check for CloudTrail log integrity validation
 - Added SI-4 Information System Monitoring check for GuardDuty detector status

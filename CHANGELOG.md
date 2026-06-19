@@ -4,6 +4,13 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.5.0] - 2026-06-19
+- Added SA-9 External Information System Services check for third-party integration compliance scope
+- Added PM-6 Information Security Measures of Performance check for metric tracking coverage
+- Improved control output to include remediation priority ratings (Critical, High, Medium, Low)
+- Added batch scan mode to run all controls in parallel for faster environment assessments
+- Updated NIST SP 800-53 Rev 5 control descriptions with latest OSCAL catalog references
+
 ## [1.4.0] - 2026-06-08
 - Added RA-5 Vulnerability Scanning check for Inspector scan age and unresolved critical findings
 - Added CP-9 Information System Backup check for RDS automated backup retention policy

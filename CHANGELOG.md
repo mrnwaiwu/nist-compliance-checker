@@ -4,6 +4,12 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.6.0] - 2026-06-22
+- Added CA-7 Continuous Monitoring check for stale vulnerability scan results older than 30 days
+- Added AC-6 Least Privilege check for IAM policies granting wildcard ("*") actions
+- Improved batch scan mode to report per-control execution time for performance tuning
+- Updated remediation priority ratings to factor in exploit availability from the CISA KEV catalog
+
 ## [1.5.0] - 2026-06-19
 - Added SA-9 External Information System Services check for third-party integration compliance scope
 - Added PM-6 Information Security Measures of Performance check for metric tracking coverage

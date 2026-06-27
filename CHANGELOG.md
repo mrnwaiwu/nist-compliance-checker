@@ -4,6 +4,12 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.7.0] - 2026-06-26
+- Added PL-8 Information Security Architecture check for network segmentation documentation coverage
+- Added SC-28 Protection of Information at Rest check for RDS and S3 encryption compliance
+- Improved finding output to include CVE references where applicable for vulnerability-related controls
+- Added `--output-dir` flag to direct report files to a configurable directory
+
 ## [1.6.0] - 2026-06-22
 - Added CA-7 Continuous Monitoring check for stale vulnerability scan results older than 30 days
 - Added AC-6 Least Privilege check for IAM policies granting wildcard ("*") actions

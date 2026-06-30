@@ -4,6 +4,12 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.8.0] - 2026-06-30
+- Added AT-2 Security Awareness Training check to validate training completion records within the past 12 months
+- Added MP-6 Media Sanitization check for verification that decommissioned storage volumes are wiped before disposal
+- Improved control runner to surface skipped controls with a reason when required AWS permissions are absent
+- Updated OSCAL catalog references to align with NIST SP 800-53 Rev 5 errata release (June 2026)
+
 ## [1.7.0] - 2026-06-26
 - Added PL-8 Information Security Architecture check for network segmentation documentation coverage
 - Added SC-28 Protection of Information at Rest check for RDS and S3 encryption compliance

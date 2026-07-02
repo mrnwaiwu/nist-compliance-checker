@@ -4,6 +4,12 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.9.0] - 2026-07-02
+- Added PE-3 Physical Access Control check to verify physical access log review cadence
+- Added PS-4 Personnel Termination check for timely IAM deactivation within 24 hours of offboarding
+- Improved OSCAL output to include responsible-role and implementation-status fields per control
+- Minor refactor of the control runner to support dry-run mode without making AWS API calls
+
 ## [1.8.0] - 2026-06-30
 - Added AT-2 Security Awareness Training check to validate training completion records within the past 12 months
 - Added MP-6 Media Sanitization check for verification that decommissioned storage volumes are wiped before disposal

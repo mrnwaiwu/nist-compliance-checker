@@ -4,6 +4,12 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.10.0] - 2026-07-12
+- Added SI-7 Software, Firmware, and Information Integrity check to verify AMI and Lambda code-signing enforcement
+- Added AC-17 Remote Access check for SSM Session Manager usage over direct SSH/RDP exposure
+- Improved OSCAL output to emit a control-summary rollup with pass/fail counts per control family
+- Fixed false positive in AC-6 where service-linked roles with scoped wildcards were flagged as least-privilege violations
+
 ## [1.9.0] - 2026-07-02
 - Added PE-3 Physical Access Control check to verify physical access log review cadence
 - Added PS-4 Personnel Termination check for timely IAM deactivation within 24 hours of offboarding

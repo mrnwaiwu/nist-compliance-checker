@@ -4,6 +4,12 @@
 - Planned: HTML report export
 - Planned: multi-system batch scan support
 
+## [1.11.0] - 2026-07-16
+- Added SC-12 Cryptographic Key Establishment and Management check for KMS key rotation policy compliance
+- Added IA-8 Identification and Authentication (Non-Organizational Users) check for Cognito MFA enforcement
+- Improved OSCAL output to include assessment-log entries with timestamps per control evaluation
+- Fixed false negative in SC-28 where S3 buckets with SSE-S3 were incorrectly reported as unencrypted
+
 ## [1.10.0] - 2026-07-12
 - Added SI-7 Software, Firmware, and Information Integrity check to verify AMI and Lambda code-signing enforcement
 - Added AC-17 Remote Access check for SSM Session Manager usage over direct SSH/RDP exposure
